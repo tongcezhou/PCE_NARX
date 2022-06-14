@@ -1,0 +1,82 @@
+%%% This is file `timesmt.sty', version <1.0c>
+%%%
+%%% Copyright (C) 1994 Aloysius G. Helminck. All rights reserved.
+%%% Permission is granted to to customize the declarations in this
+%%% file to serve the needs of your installation. However, no permission
+%%% is granted to distribute a modified version of this file under
+%%% its original name.
+%%%
+%%% This style file redefines the math symbols to: zmtmr, zmtmi, zmtsy
+%%% and mtex. These fonts essentially are a combination of Times and
+%%% Mathtime fonts and are remapped to get fonts with the same
+%%% character tables as the cm-math fonts.
+%%%
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{timesmt}[1994/04/29 Times + Mathtime math fonts]
+
+% The default family is Times Roman
+
+\renewcommand{\rmdefault}{ptm}
+\def\bfdefault{b}
+
+% The math fonts are the zmtm fonts.
+
+\DeclareSymbolFont{operators}	{OT1}{zmtt}{m}{n}
+\DeclareSymbolFont{letters}	{OML}{zmtt}{m}{it}
+\DeclareSymbolFont{symbols}	{OMS}{zmtt}{m}{n}
+\DeclareSymbolFont{largesymbols}{OMX}{mtt}{m}{n}
+%\DeclareSymbolFont{bold}	{OT1}{ptm}{bx}{n}
+%\DeclareSymbolFont{italic}	{OT1}{ptm}{m}{it}
+\SetMathAlphabet{\mathbf}{normal}{\encodingdefault}{\rmdefault}{b}{n}%
+\SetMathAlphabet{\mathsf}{normal}{\encodingdefault}{\sfdefault}{m}{n}%
+\SetMathAlphabet{\mathrm}{normal}{\encodingdefault}{\rmdefault}{m}{n}%
+
+% Bold math from the CM fonts.
+
+\SetSymbolFont{operators}{bold}{OT1}{cmr}{bx}{n}
+\SetSymbolFont{letters}{bold}{OML}{cmm}{b}{it}
+\SetSymbolFont{symbols}{bold}{OMS}{cmsy}{b}{n}
+\SetSymbolFont{largesymbols}{bold}{OMX}{mtt}{m}{n}
+\SetMathAlphabet{\mathbf}{bold}{\encodingdefault}{\rmdefault}{m}{n}%
+\SetMathAlphabet{\mathsf}{bold}{\encodingdefault}{\sfdefault}{b}{n}%
+\SetMathAlphabet{\mathrm}{bold}{\encodingdefault}{\rmdefault}{b}{n}%
+
+
+% An \omicron command, to fill the gap.
+
+\DeclareMathSymbol{\omicron}{0}{operators}{`\o}
+
+% Two extra symbols from the mathtime family:
+
+\DeclareMathSymbol{\varkappa}{0}{letters}{"80}
+\DeclareMathSymbol{\comp}{2}{letters}{"81}
+
+\def\hbar{{\mathchar'26\mkern-6.7muh}}
+\def\angle{{\vbox{\ialign{$\m@th\scriptstyle##$\crcr
+     \not\mathrel{\mkern14mu}\crcr
+     \noalign{\nointerlineskip}
+     \mkern2.5mu\leaders\hrule height.34pt\hfill\mkern2.5mu\crcr}}}}
+
+% Reduce the space around math operators
+
+\thinmuskip=2.5mu
+\medmuskip=3.5mu plus 1mu minus 1mu
+\thickmuskip=4.5mu plus 1.5mu minus 1mu
+
+% If you do not want boldmath from the cm-family, then uncomment the
+% following. .
+
+% \def\boldmath{%
+%    \@warning{there is no bold Symbol font}%
+%    \global\let\boldmath=\relax
+% }
+
+
+  \def\matrix#1{\null\,\vcenter{\normalbaselines\m@th
+    \ialign{\hfil$##$\hfil&&\quad\hfil$##$\hfil\crcr
+      \mathstrut\crcr\noalign{\kern-0.9\baselineskip}
+     #1\crcr\mathstrut\crcr\noalign{\kern-0.9\baselineskip}}}\,}
+
+\endinput
+

@@ -1,0 +1,406 @@
+/CLEAR
+/CWD 'D:\SpaceFrame\'
+/CONFIG,NRES,10000
+
+*SET,NoExp,50
+
+! =======================================================
+! PREPROCESSOR
+! =======================================================
+/PREP7
+! Material 1: Vertical beams 
+ET,1,BEAM188
+MP,EX,1,200E9
+MP,PRXY,1,0.29
+MP,DENS,1,7850
+
+! Cross-section 1 (vertical elements)
+SECTYPE,1,BEAM,RECT
+SECDATA,0.30,0.30,3,3
+! Cross-section 2 (vertical elements)
+SECTYPE,2,BEAM,RECT
+SECDATA,0.25,0.25,3,3
+! Cross-section 3 (vertical elements)
+SECTYPE,3,BEAM,RECT
+SECDATA,0.20,0.20,3,3
+! Cross-section 4 (vertical elements)
+SECTYPE,4,BEAM,RECT
+SECDATA,0.15,0.15,3,3
+! Cross-section 5 (vertical elements)
+SECTYPE,5,BEAM,RECT
+SECDATA,0.15,0.15,3,3
+! Cross-section 6 (horizontal outer elements)
+SECTYPE,6,BEAM,RECT
+SECDATA,0.15,0.15,3,3
+SECCONTROLS,,,,1631
+! Cross-section 7 (horizontal inner elements)
+SECTYPE,7,BEAM,RECT
+SECDATA,0.15,0.15,3,3
+SECCONTROLS,,,,3262
+
+
+! Keypoints (front profile)
+! Ground floor
+K,1, 0.0, 0.0, 0.0
+K,2, 4.0, 0.0, 0.0
+K,3, 8.0, 0.0, 0.0
+K,4, 0.0, 4.0, 0.0
+K,5, 4.0, 4.0, 0.0
+K,6, 8.0, 4.0, 0.0
+K,7, 0.0, 8.0, 0.0
+K,8, 4.0, 8.0, 0.0
+K,9, 8.0, 8.0, 0.0
+! 1st floor
+K,10, 0.0, 0.0, 3.0
+K,11, 4.0, 0.0, 3.0
+K,12, 8.0, 0.0, 3.0
+K,13, 0.0, 4.0, 3.0
+K,14, 4.0, 4.0, 3.0
+K,15, 8.0, 4.0, 3.0
+K,16, 0.0, 8.0, 3.0
+K,17, 4.0, 8.0, 3.0
+K,18, 8.0, 8.0, 3.0
+! 2nd floor
+K,19, 0.0, 0.0, 6.0
+K,20, 4.0, 0.0, 6.0
+K,21, 8.0, 0.0, 6.0
+K,22, 0.0, 4.0, 6.0
+K,23, 4.0, 4.0, 6.0
+K,24, 8.0, 4.0, 6.0
+K,25, 0.0, 8.0, 6.0
+K,26, 4.0, 8.0, 6.0
+K,27, 8.0, 8.0, 6.0
+! 3rd floor
+K,28, 0.0, 0.0, 9.0
+K,29, 4.0, 0.0, 9.0
+K,30, 8.0, 0.0, 9.0
+K,31, 0.0, 4.0, 9.0
+K,32, 4.0, 4.0, 9.0
+K,33, 8.0, 4.0, 9.0
+K,34, 0.0, 8.0, 9.0
+K,35, 4.0, 8.0, 9.0
+K,36, 8.0, 8.0, 9.0
+! 4th floor
+K,37, 0.0, 0.0, 12.0
+K,38, 4.0, 0.0, 12.0
+K,39, 8.0, 0.0, 12.0
+K,40, 0.0, 4.0, 12.0
+K,41, 4.0, 4.0, 12.0
+K,42, 8.0, 4.0, 12.0
+K,43, 0.0, 8.0, 12.0
+K,44, 4.0, 8.0, 12.0
+K,45, 8.0, 8.0, 12.0
+! 5th floor
+K,46, 0.0, 0.0, 15.0
+K,47, 4.0, 0.0, 15.0
+K,48, 8.0, 0.0, 15.0
+K,49, 0.0, 4.0, 15.0
+K,50, 4.0, 4.0, 15.0
+K,51, 8.0, 4.0, 15.0
+K,52, 0.0, 8.0, 15.0
+K,53, 4.0, 8.0, 15.0
+K,54, 8.0, 8.0, 15.0
+
+! Lines
+! TYPE,1
+! Vertical Beams b/w grounf-1st floor
+TYPE,1
+L,1,10	! Element 1
+L,2,11	! Element 2
+L,3,12	! Element 3
+L,4,13	! Element 4
+L,5,14	! Element 5
+L,6,15	! Element 6
+L,7,16	! Element 7
+L,8,17	! Element 8
+L,9,18	! Element 9
+! Vertical Beams b/w 1st floor-2nd floor
+L,10,19	! Element 10
+L,11,20	! Element 11
+L,12,21	! Element 12
+L,13,22	! Element 13
+L,14,23	! Element 14
+L,15,24	! Element 15
+L,16,25	! Element 16
+L,17,26	! Element 17
+L,18,27	! Element 18
+! Vertical Beams b/w 2nd floor-3rd floor
+L,19,28	! Element 19
+L,20,29	! Element 20
+L,21,30	! Element 21
+L,22,31	! Element 22
+L,23,32	! Element 23
+L,24,33	! Element 24
+L,25,34	! Element 25
+L,26,35	! Element 26
+L,27,36	! Element 27
+! Vertical Beams b/w 3rd floor-4th floor
+L,28,37	! Element 28
+L,29,38	! Element 29
+L,30,39	! Element 30
+L,31,40	! Element 31
+L,32,41	! Element 32
+L,33,42	! Element 33
+L,34,43	! Element 34
+L,35,44	! Element 35
+L,36,45	! Element 36
+! Vertical Beams b/w 4th floor-5th floor
+L,37,46	! Element 37
+L,38,47	! Element 38
+L,39,48	! Element 39
+L,40,49	! Element 40
+L,41,50	! Element 41
+L,42,51	! Element 42
+L,43,52	! Element 43
+L,44,53	! Element 44
+L,45,54	! Element 45
+
+! TYPE,2
+! Horizontal Beams 1st floor (outer beams)
+L,10,11	! Element 46
+L,11,12	! Element 47
+L,10,13	! Element 48
+L,12,15	! Element 49
+L,13,16	! Element 50
+L,15,18	! Element 51
+L,16,17	! Element 52
+L,17,18	! Element 53
+! Horizontal Beams 2nd floor (outer beams)
+L,19,20	! Element 54
+L,20,21	! Element 55
+L,19,22	! Element 56
+L,21,24	! Element 57
+L,22,25	! Element 58
+L,24,27	! Element 59
+L,25,26	! Element 60
+L,26,27	! Element 61
+! Horizontal Beams 3rd floor (outer beams)
+L,28,29	! Element 62
+L,29,30	! Element 63
+L,28,31	! Element 64
+L,30,33	! Element 65
+L,31,34	! Element 66
+L,33,36	! Element 67
+L,34,35	! Element 68
+L,35,36	! Element 69
+! Horizontal Beams 4th floor (outer beams)
+L,37,38	! Element 70
+L,38,39	! Element 71
+L,37,40	! Element 72
+L,39,42	! Element 73
+L,40,43	! Element 74
+L,42,45	! Element 75
+L,43,44	! Element 76
+L,44,45	! Element 77
+! Horizontal Beams 5th floor (outer beams)
+L,46,47	! Element 78
+L,47,48	! Element 79
+L,46,49	! Element 80
+L,48,51	! Element 81
+L,49,52	! Element 82
+L,51,54	! Element 83
+L,52,53	! Element 84
+L,53,54	! Element 85
+
+! TYPE,3
+! Horizontal Beams 1st floor (inner beams)
+L,11,14	! Element 86
+L,13,14	! Element 87
+L,14,15	! Element 88
+L,14,17	! Element 89
+! Horizontal Beams 2nd floor (inner beams)
+L,20,23	! Element 90
+L,22,23	! Element 91
+L,23,24	! Element 92
+L,23,26	! Element 93
+! Horizontal Beams 3rd floor (inner beams)
+L,29,32	! Element 94
+L,31,32	! Element 95
+L,32,33	! Element 96
+L,32,35	! Element 97
+! Horizontal Beams 4th floor (inner beams)
+L,38,41	! Element 98
+L,40,41	! Element 99
+L,41,42	! Element 100
+L,41,44	! Element 101
+! Horizontal Beams 5th floor (inner beams)
+L,47,50	! Element 102
+L,49,50	! Element 103
+L,50,51	! Element 104
+L,50,53	! Element 105
+
+! Meshing 
+LESIZE,ALL,,,1,1,1  					! Specifies the divisions and spacing ratio on unmeshed lines (no division, no spacing ratio)
+! Verical beams (ground-1st floor) 
+LATT,1,1,1,,,,1
+LSEL,S,LINE,,1,9,1,1
+LMESH,ALL								! Generates nodes and line elements along lines
+ALLSEL,ALL  
+! Verical beams (1st-2nd floor) 
+LATT,1,1,1,,,,2
+LSEL,S,LINE,,10,18,1,1
+LMESH,ALL								! Generates nodes and line elements along lines
+ALLSEL,ALL  
+! Verical beams (2nd-3rd floor) 
+LATT,1,1,1,,,,3
+LSEL,S,LINE,,19,27,1,1
+LMESH,ALL								! Generates nodes and line elements along lines
+ALLSEL,ALL  
+! Verical beams (3rd-4th floor) 
+LATT,1,1,1,,,,4
+LSEL,S,LINE,,28,36,1,1
+LMESH,ALL								! Generates nodes and line elements along lines
+ALLSEL,ALL  
+! Verical beams (4th-5th floor) 
+LATT,1,1,1,,,,5
+LSEL,S,LINE,,37,45,1,1
+LMESH,ALL								! Generates nodes and line elements along lines
+ALLSEL,ALL  
+! Horizontal outer beams 
+LATT,1,1,1,,,,6
+LSEL,S,LINE,,46,85,1,1
+LMESH,ALL								! Generates nodes and line elements along lines
+ALLSEL,ALL  
+! Horizontal inner beams 
+LATT,1,1,1,,,,7
+LSEL,S,LINE,,86,105,1,1
+LMESH,ALL								! Generates nodes and line elements along lines
+ALLSEL,ALL 
+
+FINISH
+
+
+! Read the Material Properties Input file
+! =======================================                                                                                                                                      
+*DIM,BeamProps,ARRAY,NoExp,2 
+*VREAD,BeamProps(1),'BeamProps','txt',,IJK,NoExp,2
+(E16.7)                                                                                                                                                              
+
+/DELETE,'MProps',txt,
+/DELETE,'EProps',txt,
+/DELETE,'Wn',txt,
+
+*DO,J,1,NoExp			! Experiments DO LOOP
+	/PREP7
+	MPDELE,ALL,1,1,1					! Delete material properties
+	! Material 1: Vertical beams 
+	MP,EX,1,BeamProps(J,1)          	! N/m^2	
+	MP,PRXY,1,0.29
+	MP,DENS,1,7850
+
+	! Cross-section 1 (vertical elements)
+	SECTYPE,1,BEAM,RECT
+	SECDATA,0.30*BeamProps(J,2),0.30*BeamProps(J,2),3,3
+	! Cross-section 2 (vertical elements)
+	SECTYPE,2,BEAM,RECT
+	SECDATA,0.25*BeamProps(J,2),0.25*BeamProps(J,2),3,3
+	! Cross-section 3 (vertical elements)
+	SECTYPE,3,BEAM,RECT
+	SECDATA,0.20*BeamProps(J,2),0.20*BeamProps(J,2),3,3
+	! Cross-section 4 (vertical elements)
+	SECTYPE,4,BEAM,RECT
+	SECDATA,0.15*BeamProps(J,2),0.15*BeamProps(J,2),3,3
+	! Cross-section 5 (vertical elements)
+	SECTYPE,5,BEAM,RECT
+	SECDATA,0.15*BeamProps(J,2),0.15*BeamProps(J,2),3,3
+
+	FINISH	
+	
+	! Write material properties for the current experiment
+	*CFOPEN,'MProps',txt,,APPEND			! Open txt file
+	*GET,MEx,EX,1							! Material 1 Young moduli
+	*GET,BEAMheight1,SECP,1,DATA,1			! Beam 1 cross section area
+	*GET,BEAMheight2,SECP,2,DATA,1			! Beam 2 cross section area
+	*GET,BEAMheight3,SECP,3,DATA,1			! Beam 3 cross section area
+	*GET,BEAMheight4,SECP,4,DATA,1			! Beam 4 cross section area
+	*GET,BEAMheight5,SECP,5,DATA,1			! Beam 5 cross section area
+	*GET,BEAMheight6,SECP,6,DATA,1			! Beam 4 cross section area
+	*GET,BEAMheight7,SECP,7,DATA,1			! Beam 5 cross section area
+	*VWRITE,J,MEx,BEAMheight1,BEAMheight2,BEAMheight3,BEAMheight4,BEAMheight5,BEAMheight6,BEAMheight7
+(9(E16.7,2X))
+	*CFCLOS	
+
+	*CFOPEN,'EProps',txt,,APPEND					! Open txt file
+	*GET,Emat,ELEM,1,ATTR,MAT						! Element 1 material
+	*GET,Etype,ELEM,1,ATTR,TYPE						! Element 1 type
+	*GET,Esecn1,ELEM,1,ATTR,SECN					! 1 section
+	*GET,Esecn2,ELEM,10,ATTR,SECN					! 2 section
+	*GET,Esecn3,ELEM,19,ATTR,SECN					! 3 section
+	*GET,Esecn4,ELEM,28,ATTR,SECN					! 4 section
+	*GET,Esecn5,ELEM,37,ATTR,SECN					! 5 section
+	*GET,Esecn6,ELEM,46,ATTR,SECN					! 6 section
+	*GET,Esecn7,ELEM,86,ATTR,SECN					! 7 section
+	*VWRITE,J,Emat,Etype,Esecn1,Esecn2,Esecn3,Esecn4,Esecn5,Esecn6,Esecn7
+(10(F3.0,2X))
+	*CFCLOS
+	
+	! =======================================================
+	! SOLUTION 
+	! =======================================================
+	/SOLU                 
+	ANTYPE,MODAL 					! Specifies the analysis type
+	MODOPT,LANB,18,0,200,,OFF		! Specifies modal analysis options                                                                                                                                                        
+	EQSLV,SPAR          			! Specifies the type of equation solver                                                                                                                                                   
+	MXPAND,0, , ,0      			! Number of modes to expand                                                                                                                                                   
+	LUMPM,0 						! Lumped mass matrix formulation (on/off)                                                                                                                                                            
+	PSTRES,0            			! Prestress effects included (on/off)                                                                                                                                                   
+	
+	! Rayleigh Damping
+	! ================
+	ALPHAD,0.5
+	BETAD,0.0001
+	
+	! Boundary conditions
+	! ===============
+	NSEL,S,LOC,Z,0
+	D,ALL,ALL
+	ALLSEL,ALL
+	
+	*CFOPEN,'Wn',txt,,APPEND
+	
+	SOLVE       		! Starts a solution                                                                                                                                                           
+	*GET,WN1,MODE,1,FREQ                                                                                                                                          
+	*GET,WN2,MODE,2,FREQ                                                                                                                                               
+	*GET,WN3,MODE,3,FREQ                                                                                                                                               
+	*GET,WN4,MODE,4,FREQ                                                                                                                                               
+	*GET,WN5,MODE,5,FREQ                                                                                                                                           
+	*GET,WN6,MODE,6,FREQ                                                                                                                                          
+	*GET,WN7,MODE,7,FREQ                                                                                                                                               
+	*GET,WN8,MODE,8,FREQ                                                                                                                                               
+	*GET,WN9,MODE,9,FREQ    
+	*GET,WN10,MODE,10,FREQ                                                                                                                                          
+	*GET,WN11,MODE,11,FREQ                                                                                                                                               
+	*GET,WN12,MODE,12,FREQ                                                                                                                                               
+	*GET,WN13,MODE,13,FREQ                                                                                                                                               
+	*GET,WN14,MODE,14,FREQ                                                                                                                                           
+	*GET,WN15,MODE,15,FREQ                                                                                                                                          
+	*GET,WN16,MODE,16,FREQ                                                                                                                                               
+	*GET,WN17,MODE,17,FREQ                                                                                                                                               
+	*GET,WN18,MODE,18,FREQ  	
+	*GET,ZETA1,MODE,1,DAMP
+	*GET,ZETA2,MODE,2,DAMP
+	*GET,ZETA3,MODE,3,DAMP
+	*GET,ZETA4,MODE,4,DAMP
+	*GET,ZETA5,MODE,5,DAMP
+	*GET,ZETA6,MODE,6,DAMP
+	*GET,ZETA7,MODE,7,DAMP
+	*GET,ZETA8,MODE,8,DAMP
+	*GET,ZETA9,MODE,9,DAMP
+	*GET,ZETA10,MODE,10,DAMP
+	*GET,ZETA11,MODE,11,DAMP
+	*GET,ZETA12,MODE,12,DAMP
+	*GET,ZETA13,MODE,13,DAMP
+	*GET,ZETA14,MODE,14,DAMP
+	*GET,ZETA15,MODE,15,DAMP
+	*GET,ZETA16,MODE,16,DAMP
+	*GET,ZETA17,MODE,17,DAMP
+	*GET,ZETA18,MODE,18,DAMP
+	
+	*VWRITE,WN1,WN2,WN3,WN4,WN5,WN6,WN7,WN8,WN9,WN10,WN11,WN12,WN13,WN14,WN15,WN16,WN17,WN18
+(18(F6.4,1X,))                                                                                                                                                       
+	*VWRITE,ZETA1,ZETA2,ZETA3,ZETA4,ZETA5,ZETA6,ZETA7,ZETA8,ZETA9,ZETA10,ZETA11,ZETA12,ZETA13,ZETA14,ZETA15,ZETA16,ZETA17,ZETA18
+(18(F6.4,1X,))                                                                                                                                                       
+	*CFCLOS
+
+*ENDDO
+FINISH

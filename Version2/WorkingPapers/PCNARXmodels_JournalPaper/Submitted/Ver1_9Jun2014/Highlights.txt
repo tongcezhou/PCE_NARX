@@ -1,0 +1,5 @@
+- Derivation of a reduced order representation of detailed numerical models, i.e., a metamodel, of increased computational efficiency.
+- Simulation of nonlinear response for the case of dynamic excitation through the use of a Nonlinear AutoRegressive with eXogenous input (NARX) model.
+- Incorporation of uncertainty of the model parameters into the simulation, through expansion on an appropriate Polynomial Chaos (PC) basis.
+- A new metamodeling approach, termed the PC-NARX method is therefore introduced.
+- A vast reduction in computational time is achieved with sufficient accuracy, yielding a methodology that is highly appropriate for implementations where replacement of refined and computationally costly models is sought (inverse problems, Monte Carlo simulations)

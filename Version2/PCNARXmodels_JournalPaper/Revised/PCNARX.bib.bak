@@ -1,0 +1,437 @@
+% This file was created with JabRef 2.10b2.
+% Encoding: ISO8859_1
+
+
+@Book{Argyris-Kelsey1955,
+  Title                    = {Energy theorems and structural analysis},
+  Author                   = {Argyris, J. and Kelsey, S.},
+  Publisher                = {Springer},
+  Year                     = {1960}
+}
+
+@InCollection{Bathe2009,
+  Title                    = {Finite Element Method},
+  Author                   = {Bathe, K.-J.},
+  Booktitle                = {Wiley Encyclopedia of Computer Science and Engineering},
+  Publisher                = {Wiley \& Sons, Inc.},
+  Year                     = {2009},
+  Editor                   = {B. Wah},
+  Pages                    = {1253-1264}
+}
+
+@Book{Bendat-Piersol2000,
+  Title                    = {{Random Data: Analysis and Measurements Procedures}},
+  Author                   = {Bendat, J. and Piersol, A.},
+  Publisher                = {Prentice Hall},
+  Year                     = {2000},
+  Edition                  = {3rd}
+}
+
+@Article{Blatman-Sudret2010,
+  Title                    = {An adaptive algorithm to build up sparse polynomial chaos expansions for stochastic finite element analysis},
+  Author                   = {Blatman, G. and Sudret, B.},
+  Journal                  = {Probabilistic Engineering Mechanics},
+  Year                     = {2010},
+  Number                   = {2},
+  Pages                    = {183-197},
+  Volume                   = {25},
+
+  Keywords                 = {Adaptive stochastic finite elements; Sequential experimental design; Sparse polynomial chaos expansion; Regression; Structural reliability; Response surfaces.}
+}
+
+@Article{Chang-Perl1988,
+  Title                    = {A finite element based approach to multi-objective structural optimization using goal programming},
+  Author                   = {Chang, P. and Perl, J.},
+  Journal                  = {Engineering Optimization},
+  Year                     = {1988},
+  Number                   = {1},
+  Pages                    = {65-82},
+  Volume                   = {13}
+}
+
+@Article{Chen-Billings1989,
+  Title                    = {Modelling and analysis of non-linear time series},
+  Author                   = {Chen, S. and Billings, S.A.},
+  Journal                  = {International Journal of Control},
+  Year                     = {1989},
+  Number                   = {6},
+  Pages                    = {2151-2171},
+  Volume                   = {50},
+
+  Keywords                 = {NARMA; time series models; polynomial; rational; threshold; stationarity; multi-step ahead predictions.}
+}
+
+@InBook{Choudhury-etal2008,
+  Title                    = {Linear or nonlinear? A bicoherence-based measure of nonlinearity},
+  Author                   = {Choudhury, S.M. and Shah, S.L. and Thornhill, N.F.},
+  Chapter                  = {6},
+  Editor                   = {Choudhury, S.M. and Shah, S.L. and Thornhill, N.F.},
+  Pages                    = {77-91},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2008},
+  Series                   = {Advances in Industrial Control},
+
+  Keywords                 = {Nonlinear; Bispectrum; Boicoherence; Higher order statistics; Gaussianity test; Nonlinearity test.},
+  Owner                    = {Nonlinear, Detection},
+  Timestamp                = {2013.10.08}
+}
+
+@InProceedings{Clough1960,
+  Title                    = {The finite element method in plane stress analysis},
+  Author                   = {Clough, R.},
+  Booktitle                = {2nd ASCE Conference on Electronic Computation, Pittsburgh, PA, USA, 1960 September 8-9},
+  Year                     = {1960},
+  Pages                    = {345-378}
+}
+
+@Article{DiazDelaO-etal2013,
+  Title                    = {Stochastic structural dynamic analysis using {Bayesian} emulators},
+  Author                   = {DiazDelaO, F.A. and Adhikari, S. and Saavedra Flores, E.I. and Friswell, M.I.},
+  Journal                  = {Computers \& Structures},
+  Year                     = {2013},
+  Pages                    = {24-32},
+  Volume                   = {120},
+
+  __markedentry            = {[sminas:6]},
+  ISSN                     = {0045-7949},
+  Owner                    = {sminas},
+  Publisher                = {Elsevier BV},
+  Timestamp                = {2014.07.22}
+}
+
+@InProceedings{Du-Gunzburger2002,
+  Title                    = {Model reduction by proper orthogonal decomposition coupled with centroidal Voronoi tessellation},
+  Author                   = {Du, Q. and Gunzburger, M.},
+  Booktitle                = {Fluids Engineering Division Summer Meeting, (FEDS 2002-31051)},
+  Year                     = {2002}
+}
+
+@InBook{Fassois2001,
+  Title                    = {Encyclopedia of Vibration},
+  Author                   = {Fassois, S.D.},
+  Chapter                  = {Identification, model-based methods},
+  Editor                   = {Braun, S.},
+  Pages                    = {673-685},
+  Publisher                = {Elsevier},
+  Year                     = {2001}
+}
+
+@InProceedings{Fuggini-etal2011,
+  Title                    = {Innovative multifunctional reinforcement technology for masonry buildings: Numerical validation and damage detection investigation},
+  Author                   = {Fuggini, C. and Chatzi, E. and Zangani, D. and Messervey, T.},
+  Booktitle                = {3rd International Conference in Computational Methods in Structural Dynamics and Earthquake Engineering (COMPDYN 2011), Corfu, Greece, May 26-28},
+  Year                     = {2011}
+}
+
+@Article{Gerritsma-etal2012,
+  Title                    = {Time-dependent generalized polynomial chaos},
+  Author                   = {Gerritsma, M. and {van der Steen}, J.-B. and Vos, P. and Karniadakis, G.},
+  Journal                  = {Journal of Computational Physics},
+  Year                     = {2010},
+  Number                   = {22},
+  Pages                    = {8333-8363},
+  Volume                   = {229}
+}
+
+@Book{Ghanem-Spanos2003,
+  Title                    = {Stochastic Finite Elements: A Spectral Approach},
+  Author                   = {Ghanem, R. and Spanos,},
+  Publisher                = {Courier Dover Publications},
+  Year                     = {2003}
+}
+
+@Article{Gholizadeh-Salajegheh2009,
+  Title                    = {Optimal design of structures subjected to time history loading by swarm intelligence and an advanced metamodel},
+  Author                   = {Gholizadeh, S. and Salajegheh, E.},
+  Journal                  = {Computer Methods in Applied Mechanics and Engineering},
+  Year                     = {2009},
+  Pages                    = {2936-2949},
+  Volume                   = {198}
+}
+
+@Article{Helton-Davis2003,
+  Title                    = {Latin hypercube sampling and the propagation of uncertainty in analyses of complex systems},
+  Author                   = {Helton, J.C. and Davis, F.J.},
+  Journal                  = {Reliability Engineering and System Safety},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {23-69},
+  Volume                   = {81}
+}
+
+@Article{Ismail-etal2009,
+  Title                    = {The hysteresis Bouc-Wen model, a survey},
+  Author                   = {Ismail, M. and Ikhouane, F. and Rodellar, J.},
+  Journal                  = {Archives of Computational Methods in Engineering},
+  Year                     = {2009},
+  Number                   = {2},
+  Pages                    = {161-188},
+  Volume                   = {16},
+
+  Keywords                 = {Hysteresis, Bouc-Wen, stability, consistency, uniqueness, identification, parameterinterpretation, applications.},
+  Owner                    = {Nonlinear, Hysteresis},
+  Timestamp                = {2013.07.16}
+}
+
+@Article{Kopsaftopoulos-Fassois2012,
+  Title                    = {A functional model based statistical time series method for vibration based damage detection, localization, and magnitude estimation},
+  Author                   = {Kopsaftopoulos, F.P. and Fassois, S.D.},
+  Journal                  = {Mechanical Systems and Signal Processing},
+  Year                     = {2013},
+  Pages                    = {1-19},
+  Volume                   = {39}
+}
+
+@Article{Li-Ghanem1998,
+  Title                    = {Adaptive polynomial chaos expansions applied to statistics of extremes in nonlinear random vibration},
+  Author                   = {Li, R. and Ghanem, R.},
+  Journal                  = {Probabilistic Engineering Mechanics},
+  Year                     = {1998},
+  Number                   = {2},
+  Pages                    = {125-136},
+  Volume                   = {13}
+}
+
+@Book{Ljung1999,
+  Title                    = {{System Identification: Theory for the User}},
+  Author                   = {Ljung, L.},
+  Publisher                = {Prentice Hall PTR},
+  Year                     = {1999},
+  Edition                  = {2nd}
+}
+
+@Article{Mottershead-Friswell1993,
+  Title                    = {Model updating in structural dynamics: a survey},
+  Author                   = {Mottershead, J. and Friswell, M.},
+  Journal                  = {Journal of Sound and Vibration},
+  Year                     = {1993},
+  Number                   = {2},
+  Pages                    = {347-375},
+  Volume                   = {167}
+}
+
+@Article{Papadimitriou-etal2012,
+  Title                    = {Variability of updated finite element models and their predictions consistent with vibration measurements},
+  Author                   = {Papadimitriou, C. and Ntotsios, E. and Giagopoulos, D. and Natsiavas, S.},
+  Journal                  = {Structural Control and Health Monitoring},
+  Year                     = {2012},
+  Number                   = {5},
+  Pages                    = {630-654},
+  Volume                   = {19}
+}
+
+@Article{Papadopoulos-Garcia1996,
+  Title                    = {Improvement in model reduction schemes using the system equivalent reduction expansion process},
+  Author                   = {Papadopoulos, M. and Garcia, E.},
+  Journal                  = {AIAA Journal},
+  Year                     = {1996},
+  Number                   = {10},
+  Pages                    = {2217-2219},
+  Volume                   = {34}
+}
+
+@Misc{Peer2012,
+  Title                    = {PEER Ground Motion Database: {http://peer.berkeley.edu/peer\_ground\_motion\_database}},
+
+  Author                   = {PEER},
+  Year                     = {2012},
+
+  Booktitle                = {{http://peer.berkeley.edu/peer\_ground\_motion\_database}},
+  Url                      = {{http://peer.berkeley.edu/peer\_ground\_motion\_database}}
+}
+
+@Article{Peterson1989,
+  Title                    = {The reduced basis method for incompressible flow calculations},
+  Author                   = {Peterson, J.},
+  Journal                  = {SIAM Journal on Scientific and Statistical Computing},
+  Year                     = {1989},
+  Number                   = {4},
+  Pages                    = {777-786},
+  Volume                   = {10}
+}
+
+@Article{Pichler-etal2012,
+  Title                    = {A meta-modeling technique for the natural frequencies based on the approximation of the characteristic polynomial},
+  Author                   = {Pichler, L. and Gallina, A. and Uhl, T. and Bergman, L.A.},
+  Journal                  = {Computers and Structures},
+  Year                     = {2012},
+
+  Month                    = {July},
+  Pages                    = {108-116},
+  Volume                   = {102-103},
+
+  Abstract                 = {Modal meta-models are used to approximate modal properties of structures when structural modifications are present. This paper proposes a viable meta-modeling approach which, based on the approximation of the coefficients of the characteristic polynomial, succeeds in accurately predicting the natural frequencies of the system under parameter variations in presence of veering. The obtained modal meta-model is used in combination with a procedure for efficient detection of veering and crossing phenomena without resorting to time-consuming mode tracking procedures. In this way it is possible to design a system which is safe against unexpected modal behavior.},
+  Review                   = {Highlights * Approximation of modal properties of structures using meta-models. * Prediction of the natural frequencies based on approximations of the coefficients of the characteristic polynomial. * Detection of veering and crossing phenomena without time-consuming mode tracking procedures.},
+  Timestamp                = {2013.02.26}
+}
+
+@Article{Rabinovich-etal2007,
+  Title                    = {XFEM-based crack detection scheme using a genetic algorithm},
+  Author                   = {Rabinovich, D. and Givoli, D. and Vigdergauz, S.},
+  Journal                  = {International Journal for Numerical Methods in Engineering},
+  Year                     = {2007},
+  Number                   = {9},
+  Pages                    = {1051-1080},
+  Volume                   = {71}
+}
+
+@Article{Rezaeian-Kiureghian2010,
+  Title                    = {Simulation of synthetic ground motions for specified earthquake and site characteristics},
+  Author                   = {Rezaeian, S. and Der Kiureghian, A.},
+  Journal                  = {Earthquake Engineering and Structural Dynamics},
+  Year                     = {2010},
+  Number                   = {10},
+  Pages                    = {1155-1180},
+  Volume                   = {39}
+}
+
+@Article{Samara-etal2013,
+  Title                    = {Aircraft virtual sensor design via a Time-dependent Functional Pooling NARX methodology},
+  Author                   = {Samara, P.A. and Sakellariou, J.S. and Fouskitakis, G.N. and Hios, J.D. and Fassois, S.D.},
+  Journal                  = {Aerospace Science and Technology},
+  Year                     = {2013},
+  Number                   = {1},
+  Pages                    = {114-124},
+  Volume                   = {29}
+}
+
+@Article{Sapsis-Lermusiaux2012,
+  Title                    = {Dynamical criteria for the evolution of the stochastic dimensionality in flows with uncertainty},
+  Author                   = {Sapsis, T. and Lermusiaux, P.},
+  Journal                  = {Physica D: Nonlinear Phenomena},
+  Year                     = {2012},
+  Number                   = {1},
+  Pages                    = {60-76},
+  Volume                   = {241}
+}
+
+@Article{Soize-Ghanem2004,
+  Title                    = {Physical Systems with Random Uncertainties: Chaos Representations with Arbitrary Probability Measure},
+  Author                   = {Soize, C. and Ghanem, R.},
+  Journal                  = {SIAM Journal on Scientific Computing},
+  Year                     = {2004},
+  Number                   = {2},
+  Pages                    = {395-410},
+  Volume                   = {26}
+}
+
+@InProceedings{Spiridonakos-Chatzi2013,
+  Title                    = {Metamodelling of Uncertain Structural Systems based on Wavelet Transform Decomposition},
+  Author                   = {Spiridonakos, M.D. and Chatzi, E.N.},
+  Booktitle                = {Third International Conference on Soft Computing Technology in Civil, Structural and Environmental Engineering Computing, Civil-Comp Press, Stirlingshire, Scotland},
+  Year                     = {2013},
+  Editor                   = {Y. Tsompanakis},
+
+  Owner                    = {sminas},
+  Timestamp                = {2014.07.22}
+}
+
+@InProceedings{Spiridonakos-Chatzi2012,
+  Title                    = {Metamodeling of structural systems through polynomial chaos ARX models},
+  Author                   = {Spiridonakos, M.D. and Chatzi, E.N.},
+  Booktitle                = {International Conference on Uncertainty in Structural Dynamics (USD2012), Leuven, Belgium, September 17-19, 2012},
+  Year                     = {2012}
+}
+
+@InProceedings{Spiridonakos-Chatzi2014,
+  Title                    = {Polynomial chaos expansion models for SHM under environmental variability},
+  Author                   = {Spiridonakos, M.D., and Chatzi, E.N.},
+  Booktitle                = {9th International Conference on Structural Dynamics (Eurodyn 2014), Porto, Portugal},
+  Year                     = {2014},
+  Month                    = {June 30 - July 2},
+
+  Owner                    = {sminas},
+  Timestamp                = {2015.04.03}
+}
+
+@InProceedings{Spiridonakos-Chatzi2013a,
+  Title                    = {Metamodeling of structural systems with parametric uncertainty subject to stochastic excitation},
+  Author                   = {Spiridonakos, M.D., and Chatzi, E.N.},
+  Booktitle                = {11th International Conference on Structural Safety and Reliability, (ICOSSAR 2013), Columbia University, New York, NY},
+  Year                     = {2013},
+  Month                    = {June 16-20},
+  Pages                    = {2187-2194},
+
+  Owner                    = {sminas},
+  Timestamp                = {2015.04.03}
+}
+
+@TechReport{Taucer-etal1991,
+  Title                    = {A fiber beam-column element for seismic response analysis of reinforced concrete structures},
+  Author                   = {Taucer, F. and Spacone, E. and Filippou,},
+  Institution              = {Earthquake Engineering Research Center, Univ. of California, Berkeley},
+  Year                     = {1992},
+  Number                   = {UCB/EERC 91/17}
+}
+
+@Article{Triantafyllou-Koumousis2012,
+  Title                    = {Bouc-Wen type hysteretic plane stress element},
+  Author                   = {Triantafyllou, S. and Koumousis, V.},
+  Journal                  = {Journal of Engineering Mechanics},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {235-246},
+  Volume                   = {138}
+}
+
+@Article{Turner-etal1956,
+  Title                    = {Stiffness and deflection analysis of complex structures},
+  Author                   = {Turner, M.J. and Clough, R.W. and Martin, H.C. and Topp, L.J.},
+  Journal                  = {Journal of the Aeronautical Sciences},
+  Year                     = {1956},
+  Number                   = {9},
+  Pages                    = {805-823},
+  Volume                   = {23}
+}
+
+@InProceedings{Wagner-Ferris2007,
+  Title                    = {A Polynomial Chaos Approach to ARMA Modeling and Terrain Characterization},
+  Author                   = {Wagner, S.M. and Ferris, J.B.},
+  Booktitle                = {SPIE 6564, Modeling and Simulation for Military Operations II, 65640M},
+  Year                     = {2007}
+}
+
+@Article{Waisman-etal2010,
+  Title                    = {Detection and quantification of flaws in structures by the extended finite element method and genetic algorithms},
+  Author                   = {Waisman, H. and Chatzi, E. and Smyth, S.},
+  Journal                  = {International Journal for Numerical Methods in Engineering},
+  Year                     = {2010},
+  Number                   = {3},
+  Pages                    = {303-328},
+  Volume                   = {82}
+}
+
+@Article{Wei-Billings2009,
+  Title                    = {Improved Parameter Estimates for Non-Linear Dynamical Models Using a Bootstrap Method},
+  Author                   = {Wei, H.L. and Billings, S.A.},
+  Journal                  = {International Journal of Control},
+  Year                     = {2009},
+  Number                   = {11},
+  Pages                    = {1991-2001},
+  Volume                   = {82}
+}
+
+@InCollection{Worden-Barthorpe2012,
+  Title                    = {Identification of Hysteretic Systems Using NARX Models, Part I: Evolutionary Identification},
+  Author                   = {Worden, K. and Barthorpe, R.J.},
+  Booktitle                = {Topics in Model Validation and Uncertainty Quantification, Volume 4},
+  Publisher                = {Springer New York},
+  Year                     = {2012},
+  Pages                    = {49-56},
+  Series                   = {Conference Proceedings of the Society for Experimental Mechanics Series},
+
+  Keywords                 = {Hysteresis; NARX models; Nonlinear system identification; Self-Adaptive Differential Evolution (SADE); The Bouc-Wen model},
+  Owner                    = {Nonlinear, Bouc-Wen},
+  Timestamp                = {2013.07.24}
+}
+
+@Article{Yesilyurta-Patera1995,
+  Title                    = {Surrogates for numerical simulations; optimization of eddy-promoter heat exchangers},
+  Author                   = {Yesilyurta, S. and Patera, A.},
+  Journal                  = {Computer Methods in Applied Mechanics and Engineering},
+  Year                     = {1995},
+  Number                   = {1-4},
+  Pages                    = {231-257},
+  Volume                   = {121}
+}
+
